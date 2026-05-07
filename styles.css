@@ -734,3 +734,9 @@ a {
         transform-origin: bottom right;
     }
 }
+
+@media (min-width: 769px) {
+    .mobile-only {
+        display: none !important;
+    }
+}
